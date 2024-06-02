@@ -40,7 +40,7 @@ const Nav = () => {
 	return (
 		<div>
 			<nav
-				className={styles.nav}
+				className={` text-gray-600 ${styles.nav}`}
 				style={{ backgroundColor: theme.backgroundColor }}
 			>
 				<div
