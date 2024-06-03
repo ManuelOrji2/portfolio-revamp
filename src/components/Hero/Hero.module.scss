@@ -1,11 +1,12 @@
-.heroBtn {
-	@apply absolute h-20 w-20 right-[58%];
+.hero {
+	.heroBtn {
+		@apply absolute h-20 w-20 right-[58%];
 
-	.letsChat {
-		animation: blink 1s alternate infinite;
+		.letsChat {
+			animation: blink 1s alternate infinite;
+		}
 	}
 }
-
 @keyframes blink {
 	0% {
 		width: 75px;
