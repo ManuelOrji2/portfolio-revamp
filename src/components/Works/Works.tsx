@@ -20,7 +20,7 @@ const worksDetails: worksDetail[] = [
 	{
 		imgSrc: agencyProjectIcon,
 		text: "Agency",
-		url: "https://agency.vercel.app/",
+		url: "https://manuel-agency.vercel.app/",
 	},
 	{
 		imgSrc: calcProjecticon,
