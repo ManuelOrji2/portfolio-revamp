@@ -17,24 +17,23 @@ function App() {
 				color: theme.color,
 				boxSizing: "border-box",
 			}}
+			className=" flex items-center justify-center h-screen"
 		>
 			<BrowserRouter>
-				<div className="flex items-center justify-center h-screen">
-					<Routes>
-						<Route
-							index
-							element={<HomePage />}
-						/>
-						<Route
-							path="works"
-							element={<WorksPage />}
-						/>
-						<Route
-							path="about"
-							element={<AboutPage />}
-						/>
-					</Routes>
-				</div>
+				<Routes>
+					<Route
+						index
+						element={<HomePage />}
+					/>
+					<Route
+						path="works"
+						element={<WorksPage />}
+					/>
+					<Route
+						path="about"
+						element={<AboutPage />}
+					/>
+				</Routes>
 			</BrowserRouter>
 		</div>
 	);

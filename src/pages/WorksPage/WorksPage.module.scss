@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 670px) {
 	.worksPage {
-		@apply w-[100%] h-full px-0;
+		@apply w-[100%] h-full px-0 mt-0;
 		overflow: hidden;
 	}
 }
