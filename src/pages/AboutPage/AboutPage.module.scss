@@ -1,5 +1,6 @@
 .AboutPage {
 	@apply w-[70%] h-[100%] rounded-xl shadow-xl mt-8;
+	box-sizing: border-box;
 }
 
 @media screen and (max-width: 670px) {
