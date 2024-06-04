@@ -3,7 +3,7 @@ import letChatsIcon from "../../images/let'schat.png";
 
 import { contactDetails } from "../../App";
 
-import styles from "./Hero.module.scss";
+import styles from "../Hero/Hero.module.scss";
 
 const Hero = () => {
 	return (
