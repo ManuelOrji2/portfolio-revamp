@@ -1,7 +1,7 @@
 import HeroImg from "../../images/orji.png";
 import letChatsIcon from "../../images/let'schat.png";
 
-import { contactDetails } from "../../App";
+import { contactDetails } from "../../utils/contactDetails";
 
 import styles from "../Hero/Hero.module.scss";
 
