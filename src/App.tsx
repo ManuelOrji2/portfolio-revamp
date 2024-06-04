@@ -15,6 +15,7 @@ function App() {
 			style={{
 				backgroundColor: theme.backgroundColor,
 				color: theme.color,
+				boxSizing: "border-box",
 			}}
 		>
 			<BrowserRouter>
