@@ -7,25 +7,36 @@ export type navLinkDetails = {
 	path: string;
 	name: string;
 	target: string;
+	view: string;
 };
 
 export const navLinks: navLinkDetails[] = [
+	{
+		imgSrc: "",
+		path: "/",
+		name: "Home",
+		target: "",
+		view: "",
+	},
 	{
 		imgSrc: worksIcon,
 		path: "/works",
 		name: "Works",
 		target: "",
+		view: "destopView",
 	},
 	{
 		imgSrc: aboutIcon,
 		path: "/about",
 		name: "About",
 		target: "",
+		view: "destopView",
 	},
 	{
 		imgSrc: resumeIcon,
 		path: "https://drive.google.com/file/d/1OnU-3HXrGF2WlVP8n77VS4XRMxvo_jxz/view?usp=sharing",
 		name: "Resume",
 		target: "_blank",
+		view: "destopView",
 	},
 ];

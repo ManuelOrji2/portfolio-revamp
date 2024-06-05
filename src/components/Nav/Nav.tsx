@@ -37,6 +37,10 @@ const Nav = () => {
 		navContents.current.style.display = "flex";
 	}
 
+	const destopViewNavLinks = navLinks.filter(
+		(navlink) => navlink.view === "destopView",
+	);
+
 	return (
 		<div>
 			<nav
@@ -100,7 +104,7 @@ const Nav = () => {
 				</div>
 
 				<div className="w-1/3 flex justify-evenly">
-					{navLinks.map((navLink, i) => (
+					{destopViewNavLinks.map((navLink, i) => (
 						<Link
 							key={i}
 							target={navLink.target}
@@ -128,9 +132,13 @@ const Nav = () => {
 				style={{ background: theme.backgroundColor }}
 			>
 				<div className="absolute top-[20%] left-[50%]  right-[50%] flex flex-col gap-8 items-center text-center font-semibold">
-					<Link to={"/"}>Home</Link>
 					{navLinks.map((navLink, i) => (
 						<Link
+							className={
+								location.pathname === navLink.path
+									? `underline cursor-pointer`
+									: `cursor-pointer`
+							}
 							key={i}
 							to={navLink.path}
 						>
