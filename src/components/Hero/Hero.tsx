@@ -1,4 +1,4 @@
-import HeroImg from "../../images/orji.png";
+import HeroImg from "../../images/orjii.png";
 import letChatsIcon from "../../images/let'schat.png";
 
 import { contactDetails } from "../../utils/contactDetails";
