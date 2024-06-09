@@ -40,32 +40,32 @@ const worksDetails: worksDetail[] = [
 	{
 		imgSrc: countdownTimerProjectIcon,
 		text: "Countdown Timer",
-		url: "https://manuelorji.github.io/Joke-Teller-Project/",
+		url: "https://manuelorji.github.io/Custom-countdown-project/",
 	},
 	{
 		imgSrc: infinteScrollProjectIcon,
 		text: "Infinite Scroll",
-		url: "https://manuelorji.github.io/Joke-Teller-Project/",
+		url: "https://manuelorji.github.io/infinite-scroll-project/",
 	},
 	{
 		imgSrc: videoPlayerProjectIcon,
 		text: "Video player",
-		url: "https://manuelorji.github.io/Joke-Teller-Project/",
+		url: "https://manuel-video-player.netlify.app/",
 	},
 	{
 		imgSrc: musicPlayerProjectIcon,
 		text: "Music Player",
-		url: "https://manuelorji.github.io/Joke-Teller-Project/",
+		url: "https://manuelorji.github.io/Music-player/",
 	},
 	{
 		imgSrc: quoteGeneratorProjectIcon,
 		text: "Quote Generator",
-		url: "https://manuelorji.github.io/Joke-Teller-Project/",
+		url: "https://manuelorji.github.io/quotes-gen/",
 	},
 	{
 		imgSrc: dragNDropProjectIcon,
 		text: "Drag and Drop",
-		url: "https://manuelorji.github.io/Joke-Teller-Project/",
+		url: "https://manuelorji.github.io/drag-n-drop-vanilla-js/",
 	},
 ];
 
