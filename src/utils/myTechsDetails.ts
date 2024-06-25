@@ -12,6 +12,7 @@ import nextJsIcon from "../images/next-js.43e649734b4f278577629a3488272d9f.svg";
 import nodeJsIcon from "../images/nodejs.dbfe5f95c0bc757a67be277698b93cce.svg";
 import typeScriptIcon from "../images/icons8-typescript-24.png";
 import photoshopIcon from "../images/icons8-photoshop-48.png";
+import wordPressIcon from "../images/WordPress_blue_logo.svg.png";
 
 type myTechDetail = {
 	imgSrc: string;
@@ -38,6 +39,10 @@ export const myTechsDetails: myTechDetail[] = [
 	{
 		imgSrc: reactJsIcon,
 		content: "React.js",
+	},
+	{
+		imgSrc: wordPressIcon,
+		content: "WordPress",
 	},
 	{
 		imgSrc: corelIcon,
