@@ -34,7 +34,7 @@ export const navLinks: navLinkDetails[] = [
 	},
 	{
 		imgSrc: resumeIcon,
-		path: "https://drive.google.com/file/d/1OnU-3HXrGF2WlVP8n77VS4XRMxvo_jxz/view?usp=sharing",
+		path: "https://drive.google.com/file/d/1exHf5HU78jSg9bDbnEMOuoMkKGNapTj4/view?usp=sharing",
 		name: "Resume",
 		target: "_blank",
 		view: "destopView",
